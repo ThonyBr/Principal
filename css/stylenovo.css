@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(120deg, #69fff3 25%, #3fff69 100%);
+    background: linear-gradient(120deg, #e76eff 25%, #7cdde4 100%);
 }
 
 main{
@@ -33,14 +33,14 @@ main{
 }
 
 .links a:hover {
-    color: #05e623;
-    border-top: 2px solid #05e623;
-    border-bottom: 2px solid #05e623;
+    color: #ffffff;
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
 }
 
 .link-a-1 {
-    background-color: #09bb18;
-    border: #05e649 solid 2px;
+    background-color: #3abcdd;
+    border: #000000 solid 2px;
     color: white;
     font-weight: bold;
     padding: 15px;
@@ -49,7 +49,7 @@ main{
 
 .link-a-2 {
     background-color: transparent;
-    border: #05e649 solid 2px;
+    border: #ffffff solid 2px;
     font-weight: bold;
     padding: 5px;
 }
@@ -89,7 +89,7 @@ footer {
 
 .secao-1 h2{
     font-weight: lighter;
-    color: #e605d3;
+    color: #4b4b4b;
     margin-top: 10px;
 }
 
@@ -99,58 +99,48 @@ h2{
 
 .secao-2 h2{
     font-weight: lighter;
-    color: #e605d3;
+    color: #464646;
     margin-top: 10px;
 }
 
 .linha-divisoria{
     width: 0.5%;
-    background-color:#05e623;
+    background-color:#1f1f1f;
+    height: 100vh;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 .secao-1{
-    width: 100%;
+    width: 66%;
     margin-left: 0;
-    margin-top: 10px;
-    padding: 5px;
+    padding: 15px;
+    height: 100vh;
 }
 
 .secao-2{
-    width: 100%;
-    margin-top:50px ;
-    margin-bottom: 100px;
-}
-
-.secao-3{
-    width: 100%;
-
-    margin-left: 50px;
-    margin-top: 50px;
-}
-
-.secao-4{
-    width: 500px;
-    margin-left: 50px;
-    margin-top: 50px;
-}
-
-img{
-    width: 400px;
-    margin: 0 auto;
-}
-.img img{
-    width: 33%;
-    border-radius: 100%;
-}
-
-.img-col{
-    width: 20%;
-    border-radius: 100%;
-}
-
-h1{
-    text-align: center;
+    width: 40%;
+    margin-left: 0;
     padding: 15px;
+    height: 100vh;
+}
+
+.mySlides{
+    width: 300px;
+    border-radius:20px;
+    margin: 0 auto;
+
+}
+
+.img2{
+    width: 100%;
+    border-radius: 20px;
 }
 
 h3{
@@ -158,16 +148,16 @@ h3{
     font-size: 50px;
 }
 
-button{
-    padding: 20px;
-    margin-left: 40px;
+.campobox{
+    width:33%;
 }
 
-.btn btn-info{
-    size: 50px;
+.tabela{
+    padding:20px;
 }
 
-.mySlides{
-    width: 300px;
-    height: 300px;
+.slideshow-container{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
 }
